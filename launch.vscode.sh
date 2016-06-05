@@ -14,6 +14,18 @@ fi
 
 GOAPPENGINE=$BASEFOLDER/go_appengine
 GOROOT=$GOAPPENGINE/goroot
+# Check that the appengine is there as expected
+if [ ! -d "$GOAPPENGINE" ]; then
+    echo "Can't find the 'go_appengine' folder under the BASEFOLDER."
+    exit 1
+fi
+
+# Check that the GOPATH is there as expected
+if [ ! -d "$BASEFOLDER"/go/src ]; then
+    echo "Can't find the 'src' folder under the GOPATH."
+    exit 1
+fi
+
 GOPATH=$BASEFOLDER/go:$GOROOT
 PATH=$GOAPPENGINE:$GOPATH/bin:$PATH
 
