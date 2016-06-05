@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    
+    // This setting will be automatically modified by the script "launch.vscode.sh"
+	"go.gopath": "fake",
+
+	// This setting will be automatically modified by the script "launch.vscode.sh"
+	"go.goroot": "fake"
+	
+}

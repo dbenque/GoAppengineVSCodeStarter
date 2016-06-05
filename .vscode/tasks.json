@@ -1,0 +1,22 @@
+{
+    // For the documentation about the tasks.json format see https://go.microsoft.com/fwlink/?LinkId=733558 
+    "version": "0.1.0",
+    "command": "goapp",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "tasks": [
+        {
+            "suppressTaskName": true,
+            "taskName": "serve dummy module only",
+            "args": ["serve","modules/dummy/dummy.yaml"],
+            "isBuildCommand": false,
+            "isWatching": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        }
+    ]
+}

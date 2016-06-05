@@ -1,2 +1,2 @@
 # GoAppengineVSCodeStarter
-Building Go Appengine Modules with VSCode
+This is a starter project to build Go Appengine module using VSCode.
