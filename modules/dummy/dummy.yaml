@@ -3,6 +3,8 @@ module: dummy
 version: 1
 runtime: go
 api_version: go1
+manual_scaling:          # Having one and only instance is required to have a good debugging experience. 
+  instances: 1           # Don't forget to change these 2 lines before uploading your project to appengine.
 
 handlers:
 - url: /dummy/.*
