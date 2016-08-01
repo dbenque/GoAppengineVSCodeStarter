@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Check that the basefolder of the environment is correctly set
 if [ ! -d "$BASEFOLDER" ]; then
@@ -50,4 +50,4 @@ if [ $? -eq 0 ]; then
    CMD="visual-studio-code ./"
 fi
 
-$CMD
+$CMD &
