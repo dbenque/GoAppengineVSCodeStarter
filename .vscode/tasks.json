@@ -1,7 +1,7 @@
 {
     // For the documentation about the tasks.json format see https://go.microsoft.com/fwlink/?LinkId=733558 
     "version": "0.1.0",
-    "command": "goapp",
+    "command": "./goapp.sh",
     "isShellCommand": true,
     "args": [],
     "showOutput": "always",
